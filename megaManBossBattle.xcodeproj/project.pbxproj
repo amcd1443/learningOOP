@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6052DE20589777009A6EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052DD20589777009A6EB0 /* AppDelegate.swift */; };
+		5A6052E020589777009A6EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052DF20589777009A6EB0 /* ViewController.swift */; };
+		5A6052E320589777009A6EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6052E120589777009A6EB0 /* Main.storyboard */; };
+		5A6052E520589777009A6EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6052E420589777009A6EB0 /* Assets.xcassets */; };
+		5A6052E820589777009A6EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6052E620589777009A6EB0 /* LaunchScreen.storyboard */; };
+		5A6052F320589777009A6EB0 /* megaManBossBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052F220589777009A6EB0 /* megaManBossBattleTests.swift */; };
+		5A6052FE20589777009A6EB0 /* megaManBossBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052FD20589777009A6EB0 /* megaManBossBattleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A6052EF20589777009A6EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6052D220589777009A6EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6052D920589777009A6EB0;
+			remoteInfo = megaManBossBattle;
+		};
+		5A6052FA20589777009A6EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6052D220589777009A6EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6052D920589777009A6EB0;
+			remoteInfo = megaManBossBattle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A6052DA20589777009A6EB0 /* megaManBossBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = megaManBossBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6052DD20589777009A6EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6052DF20589777009A6EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6052E220589777009A6EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A6052E420589777009A6EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6052E720589777009A6EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A6052E920589777009A6EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6052EE20589777009A6EB0 /* megaManBossBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = megaManBossBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6052F220589777009A6EB0 /* megaManBossBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = megaManBossBattleTests.swift; sourceTree = "<group>"; };
+		5A6052F420589777009A6EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6052F920589777009A6EB0 /* megaManBossBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = megaManBossBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6052FD20589777009A6EB0 /* megaManBossBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = megaManBossBattleUITests.swift; sourceTree = "<group>"; };
+		5A6052FF20589778009A6EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6052D720589777009A6EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052EB20589777009A6EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052F620589777009A6EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6052D120589777009A6EB0 = {
+			isa = PBXGroup;
+			children = (
+				5A6052DC20589777009A6EB0 /* megaManBossBattle */,
+				5A6052F120589777009A6EB0 /* megaManBossBattleTests */,
+				5A6052FC20589777009A6EB0 /* megaManBossBattleUITests */,
+				5A6052DB20589777009A6EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6052DB20589777009A6EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6052DA20589777009A6EB0 /* megaManBossBattle.app */,
+				5A6052EE20589777009A6EB0 /* megaManBossBattleTests.xctest */,
+				5A6052F920589777009A6EB0 /* megaManBossBattleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6052DC20589777009A6EB0 /* megaManBossBattle */ = {
+			isa = PBXGroup;
+			children = (
+				5A6052DD20589777009A6EB0 /* AppDelegate.swift */,
+				5A6052DF20589777009A6EB0 /* ViewController.swift */,
+				5A6052E120589777009A6EB0 /* Main.storyboard */,
+				5A6052E420589777009A6EB0 /* Assets.xcassets */,
+				5A6052E620589777009A6EB0 /* LaunchScreen.storyboard */,
+				5A6052E920589777009A6EB0 /* Info.plist */,
+			);
+			path = megaManBossBattle;
+			sourceTree = "<group>";
+		};
+		5A6052F120589777009A6EB0 /* megaManBossBattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6052F220589777009A6EB0 /* megaManBossBattleTests.swift */,
+				5A6052F420589777009A6EB0 /* Info.plist */,
+			);
+			path = megaManBossBattleTests;
+			sourceTree = "<group>";
+		};
+		5A6052FC20589777009A6EB0 /* megaManBossBattleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6052FD20589777009A6EB0 /* megaManBossBattleUITests.swift */,
+				5A6052FF20589778009A6EB0 /* Info.plist */,
+			);
+			path = megaManBossBattleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6052D920589777009A6EB0 /* megaManBossBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60530220589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattle" */;
+			buildPhases = (
+				5A6052D620589777009A6EB0 /* Sources */,
+				5A6052D720589777009A6EB0 /* Frameworks */,
+				5A6052D820589777009A6EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = megaManBossBattle;
+			productName = megaManBossBattle;
+			productReference = 5A6052DA20589777009A6EB0 /* megaManBossBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A6052ED20589777009A6EB0 /* megaManBossBattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60530520589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattleTests" */;
+			buildPhases = (
+				5A6052EA20589777009A6EB0 /* Sources */,
+				5A6052EB20589777009A6EB0 /* Frameworks */,
+				5A6052EC20589777009A6EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6052F020589777009A6EB0 /* PBXTargetDependency */,
+			);
+			name = megaManBossBattleTests;
+			productName = megaManBossBattleTests;
+			productReference = 5A6052EE20589777009A6EB0 /* megaManBossBattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A6052F820589777009A6EB0 /* megaManBossBattleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60530820589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattleUITests" */;
+			buildPhases = (
+				5A6052F520589777009A6EB0 /* Sources */,
+				5A6052F620589777009A6EB0 /* Frameworks */,
+				5A6052F720589777009A6EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6052FB20589777009A6EB0 /* PBXTargetDependency */,
+			);
+			name = megaManBossBattleUITests;
+			productName = megaManBossBattleUITests;
+			productReference = 5A6052F920589777009A6EB0 /* megaManBossBattleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6052D220589777009A6EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Austin duer";
+				TargetAttributes = {
+					5A6052D920589777009A6EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A6052ED20589777009A6EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A6052D920589777009A6EB0;
+					};
+					5A6052F820589777009A6EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A6052D920589777009A6EB0;
+					};
+				};
+			};
+			buildConfigurationList = 5A6052D520589777009A6EB0 /* Build configuration list for PBXProject "megaManBossBattle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6052D120589777009A6EB0;
+			productRefGroup = 5A6052DB20589777009A6EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6052D920589777009A6EB0 /* megaManBossBattle */,
+				5A6052ED20589777009A6EB0 /* megaManBossBattleTests */,
+				5A6052F820589777009A6EB0 /* megaManBossBattleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6052D820589777009A6EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6052E820589777009A6EB0 /* LaunchScreen.storyboard in Resources */,
+				5A6052E520589777009A6EB0 /* Assets.xcassets in Resources */,
+				5A6052E320589777009A6EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052EC20589777009A6EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052F720589777009A6EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6052D620589777009A6EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6052E020589777009A6EB0 /* ViewController.swift in Sources */,
+				5A6052DE20589777009A6EB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052EA20589777009A6EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6052F320589777009A6EB0 /* megaManBossBattleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6052F520589777009A6EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6052FE20589777009A6EB0 /* megaManBossBattleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6052F020589777009A6EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6052D920589777009A6EB0 /* megaManBossBattle */;
+			targetProxy = 5A6052EF20589777009A6EB0 /* PBXContainerItemProxy */;
+		};
+		5A6052FB20589777009A6EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6052D920589777009A6EB0 /* megaManBossBattle */;
+			targetProxy = 5A6052FA20589777009A6EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A6052E120589777009A6EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6052E220589777009A6EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6052E620589777009A6EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6052E720589777009A6EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A60530020589778009A6EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A60530120589778009A6EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A60530320589778009A6EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A60530420589778009A6EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A60530620589778009A6EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/megaManBossBattle.app/megaManBossBattle";
+			};
+			name = Debug;
+		};
+		5A60530720589778009A6EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/megaManBossBattle.app/megaManBossBattle";
+			};
+			name = Release;
+		};
+		5A60530920589778009A6EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = megaManBossBattle;
+			};
+			name = Debug;
+		};
+		5A60530A20589778009A6EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = megaManBossBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.megaManBossBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = megaManBossBattle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6052D520589777009A6EB0 /* Build configuration list for PBXProject "megaManBossBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60530020589778009A6EB0 /* Debug */,
+				5A60530120589778009A6EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60530220589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60530320589778009A6EB0 /* Debug */,
+				5A60530420589778009A6EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60530520589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60530620589778009A6EB0 /* Debug */,
+				5A60530720589778009A6EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60530820589778009A6EB0 /* Build configuration list for PBXNativeTarget "megaManBossBattleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60530920589778009A6EB0 /* Debug */,
+				5A60530A20589778009A6EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6052D220589777009A6EB0 /* Project object */;
+}
