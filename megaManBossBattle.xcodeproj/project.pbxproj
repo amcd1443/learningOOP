@@ -14,6 +14,14 @@
 		5A6052E820589777009A6EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6052E620589777009A6EB0 /* LaunchScreen.storyboard */; };
 		5A6052F320589777009A6EB0 /* megaManBossBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052F220589777009A6EB0 /* megaManBossBattleTests.swift */; };
 		5A6052FE20589777009A6EB0 /* megaManBossBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6052FD20589777009A6EB0 /* megaManBossBattleUITests.swift */; };
+		5A60530C2058A1FD009A6EB0 /* BossManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60530B2058A1FD009A6EB0 /* BossManViewController.swift */; };
+		5A60530E2058A999009A6EB0 /* GutsManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60530D2058A999009A6EB0 /* GutsManViewController.swift */; };
+		5A6053102059F19B009A6EB0 /* MegaManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60530F2059F19B009A6EB0 /* MegaManViewController.swift */; };
+		5A6053122059F37A009A6EB0 /* FireManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6053112059F37A009A6EB0 /* FireManViewController.swift */; };
+		5A6053162059F430009A6EB0 /* CutManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6053152059F430009A6EB0 /* CutManViewController.swift */; };
+		5A6053182059F44A009A6EB0 /* SnakeManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6053172059F44A009A6EB0 /* SnakeManViewController.swift */; };
+		5A60531A2059F458009A6EB0 /* ShadowManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6053192059F458009A6EB0 /* ShadowManViewController.swift */; };
+		5A60531C2059F464009A6EB0 /* TopManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60531B2059F464009A6EB0 /* TopManViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		5A6052F920589777009A6EB0 /* megaManBossBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = megaManBossBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6052FD20589777009A6EB0 /* megaManBossBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = megaManBossBattleUITests.swift; sourceTree = "<group>"; };
 		5A6052FF20589778009A6EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A60530B2058A1FD009A6EB0 /* BossManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossManViewController.swift; sourceTree = "<group>"; };
+		5A60530D2058A999009A6EB0 /* GutsManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GutsManViewController.swift; sourceTree = "<group>"; };
+		5A60530F2059F19B009A6EB0 /* MegaManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaManViewController.swift; sourceTree = "<group>"; };
+		5A6053112059F37A009A6EB0 /* FireManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireManViewController.swift; sourceTree = "<group>"; };
+		5A6053152059F430009A6EB0 /* CutManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutManViewController.swift; sourceTree = "<group>"; };
+		5A6053172059F44A009A6EB0 /* SnakeManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeManViewController.swift; sourceTree = "<group>"; };
+		5A6053192059F458009A6EB0 /* ShadowManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowManViewController.swift; sourceTree = "<group>"; };
+		5A60531B2059F464009A6EB0 /* TopManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopManViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				5A6052E420589777009A6EB0 /* Assets.xcassets */,
 				5A6052E620589777009A6EB0 /* LaunchScreen.storyboard */,
 				5A6052E920589777009A6EB0 /* Info.plist */,
+				5A60530B2058A1FD009A6EB0 /* BossManViewController.swift */,
+				5A60530D2058A999009A6EB0 /* GutsManViewController.swift */,
+				5A60530F2059F19B009A6EB0 /* MegaManViewController.swift */,
+				5A6053112059F37A009A6EB0 /* FireManViewController.swift */,
+				5A6053152059F430009A6EB0 /* CutManViewController.swift */,
+				5A6053172059F44A009A6EB0 /* SnakeManViewController.swift */,
+				5A6053192059F458009A6EB0 /* ShadowManViewController.swift */,
+				5A60531B2059F464009A6EB0 /* TopManViewController.swift */,
 			);
 			path = megaManBossBattle;
 			sourceTree = "<group>";
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6053102059F19B009A6EB0 /* MegaManViewController.swift in Sources */,
+				5A60530E2058A999009A6EB0 /* GutsManViewController.swift in Sources */,
+				5A60531A2059F458009A6EB0 /* ShadowManViewController.swift in Sources */,
+				5A60530C2058A1FD009A6EB0 /* BossManViewController.swift in Sources */,
 				5A6052E020589777009A6EB0 /* ViewController.swift in Sources */,
+				5A60531C2059F464009A6EB0 /* TopManViewController.swift in Sources */,
+				5A6053182059F44A009A6EB0 /* SnakeManViewController.swift in Sources */,
+				5A6053162059F430009A6EB0 /* CutManViewController.swift in Sources */,
 				5A6052DE20589777009A6EB0 /* AppDelegate.swift in Sources */,
+				5A6053122059F37A009A6EB0 /* FireManViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
